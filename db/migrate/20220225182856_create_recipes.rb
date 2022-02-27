@@ -6,8 +6,7 @@ class CreateRecipes < ActiveRecord::Migration[6.1]
       t.string :name, null: false
       t.text :ingredients, null: false
       t.text :instruction, null: false
-      t.string :image, default: 'https://unsplash.com/photos/1Shk_PkNkNw'
-
+      t.string :image, default: 'https://raw.githubusercontent.com/do-community/react_rails_recipe/master/app/assets/images/Sammy_Meal.jpg'
       t.timestamps
     end
   end
